@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Fakultät {
+    public static void main(String[] args) {
+    	
+        Scanner s = new Scanner(System.in);
+        System.out.println(faku(s.nextLong()));
+        s.close();
+    }
+    public static long faku(long n) {
+        if(n==0)
+            return 1;
+        else
+            return faku(n-1);
+    }
+    public static long faku(int n) {
+        if(n==0)
+            return 1;
+        else
+            return faku(n-1);
+    }
+}

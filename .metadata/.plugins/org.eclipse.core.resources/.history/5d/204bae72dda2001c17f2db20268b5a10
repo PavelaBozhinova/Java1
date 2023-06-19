@@ -1,0 +1,27 @@
+public class Aufgabe1 {
+
+	public static void main(String[] args) {
+		
+		
+		double t,t1, N=20.0;
+		
+		for(t=0; t<26; t++) {
+			t1 = 0.83*t;
+			
+			
+			while (N<=80) {
+				System.out.println("Number of sheep through years: " + t);
+				
+				N = 220.0/(1.0 + 10.0*t1);
+			
+			
+			
+			}	
+				
+				
+			
+		
+		}
+	}
+
+}

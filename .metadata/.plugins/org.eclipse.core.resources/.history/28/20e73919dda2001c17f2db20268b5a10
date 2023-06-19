@@ -1,0 +1,27 @@
+public class Aufgabe1 {
+
+	public static void main(String[] args) {
+		
+		
+		double t, N=20.0;
+		
+		for(t=0; t<26; t++) {
+			
+			
+			
+			if (N<=80) {
+				
+				
+				N = 220.0/(1.0 + 10.0*t);
+			t = 0.83*t;
+			System.out.println(N);
+			
+			}	
+				
+				
+			
+		
+		}
+	}
+
+}

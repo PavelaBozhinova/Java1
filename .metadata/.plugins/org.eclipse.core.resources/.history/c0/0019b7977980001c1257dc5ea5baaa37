@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Aufgabe1 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner ( System.in );
+	
+		int wert, länge; 
+		
+		System.out.println("Wie viele Integer sollen addiert werden: ");
+		wert = scan.nextInt();
+		
+		
+		while (wert>0) {
+			System.out.println("Geben Sie einen Integer ein:");
+			wert = scan.nextInt();
+			wert--;
+		}
+			
+		
+		
+	}
+
+}

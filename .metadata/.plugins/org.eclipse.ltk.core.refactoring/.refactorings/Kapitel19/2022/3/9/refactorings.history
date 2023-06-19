@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;startwert&apos; in &apos;Aufgabe1.main(...)&apos; to &apos;monat&apos;&#x0D;&#x0A;- Original project: &apos;Kapitel 19&apos;&#x0D;&#x0A;- Original element: &apos;Aufgabe1.main(String[]).startwert&apos;&#x0D;&#x0A;- Renamed element: &apos;startwert&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;startwert&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Aufgabe1.java[Aufgabe1~main~\[QString;@startwert!150!165!154!162!I!0!false" name="monat" references="true" stamp="1646589050021" version="1.0"/>
+</session>

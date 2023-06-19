@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Aufg1K19 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner ( System.in );
+		
+		int monat=0;
+		double schulden=1000, saldo=1, betrag, gesamt, saldo1; 
+		
+		System.out.println("Geben Sie den monatlichen Betrag ein: ");
+		betrag = scan.nextDouble();
+		
+		while (saldo>0) {
+		
+		saldo = ((schulden*1.5)/100) + schulden-betrag;
+		
+		
+		
+		System.out.println(schulden + "		Saldo: " + saldo);
+		
+		
+		}
+		saldo--;
+		
+		
+		
+		}
+		
+	}
+
+
+
+

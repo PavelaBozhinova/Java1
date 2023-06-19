@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Fakultät {
+
+    public static int fib(int n) {
+    	System.out.println("Aufruf: " + n);
+        if (n==0) {
+            return n; 
+        } 
+        else {
+            return fib(n-1) + fib(n-2);
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("fibonacci: ");
+        System.out.println("ergebnis: " + fib(sc.nextInt()));
+
+        sc.close();
+    }
+
+}

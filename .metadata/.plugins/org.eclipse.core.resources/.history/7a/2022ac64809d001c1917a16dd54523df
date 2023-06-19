@@ -1,0 +1,14 @@
+
+public class Aufgabe2 {
+
+	public static void main(String[] args) {
+		
+		
+		double monat=0, wirkstoff=100;
+		
+		while (wirkstoff > 50)
+			System.out.println("   Wirkstoffgehalt: " + wirkstoff);
+		wirkstoff = (wirkstoff * 4)/100;
+	}
+
+}

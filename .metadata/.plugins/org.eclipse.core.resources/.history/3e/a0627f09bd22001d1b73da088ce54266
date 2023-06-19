@@ -1,0 +1,49 @@
+
+public class dackel
+{
+//Instanzvariablen
+int Alter;
+int schulterhoehe;
+static int anzahl;
+//Instanzmethoden
+public void bellen()
+{
+System.out.println
+("WauWau!\n");
+
+}
+public void laufen()
+{
+System.out.println
+("Der dackel läuft geradeaus.\n");
+
+}
+public int getAlter()
+{
+return this.Alter;
+}
+public void setAlter(int x)
+{
+ this.Alter = x;
+}
+public int getschulterhoehe()
+{
+return this.schulterhoehe;
+}
+public void setschulterhoehe(int x)
+{
+ this.schulterhoehe = x;
+}
+
+//Klassenmethoden
+static void moreDackel()
+{
+dackel.anzahl = dackel.anzahl + 1;
+}
+public void fressen()
+{
+	System.out.println
+	("Der Hund frisst seinen Napf leer.\n");
+}
+}
+

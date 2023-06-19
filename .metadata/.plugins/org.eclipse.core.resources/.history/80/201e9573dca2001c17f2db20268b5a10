@@ -1,0 +1,19 @@
+public class Aufgabe1 {
+
+	public static void main(String[] args) {
+		
+		
+		double t, N=20;
+		
+		for(t=1; t<26; t--) {
+			while (N<=80) {System.out.println(N);
+				N = 220/(1 + 10*(0.83)*t );
+			}	
+				
+				
+			
+		
+		}
+	}
+
+}

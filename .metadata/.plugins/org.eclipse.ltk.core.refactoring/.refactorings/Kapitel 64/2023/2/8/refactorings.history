@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;IdealW&apos; to &apos;CookieCalculator&apos;&#x0D;&#x0A;- Original project: &apos;Kapitel 64&apos;&#x0D;&#x0A;- Original element: &apos;IdealW&apos;&#x0D;&#x0A;- Renamed element: &apos;CookieCalculator&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;IdealW&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{CookieCalculator.java[IdealW" matchStrategy="1" name="CookieCalculator" qualified="false" references="true" similarDeclarations="false" stamp="1676967271506" textual="true" version="1.0"/>
+</session>

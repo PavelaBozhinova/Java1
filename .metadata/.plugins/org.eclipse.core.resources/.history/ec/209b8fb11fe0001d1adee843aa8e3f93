@@ -1,0 +1,21 @@
+import java.awt.*;
+
+public class Fakultät {
+
+	int n=4; 
+	
+	public Fakultät() { 
+	int y=f(n) ; 
+	Label l=new Label(""+y) ; 
+	Label.add(l) ; 
+	System.out.println(l);
+	System.out.println(y);
+	} 
+	
+	
+
+	public int f (int n){ 
+	if (n==0) return 1 ; 
+	else return n *f(n-1) ; // Selbstaufruf 
+	}
+}

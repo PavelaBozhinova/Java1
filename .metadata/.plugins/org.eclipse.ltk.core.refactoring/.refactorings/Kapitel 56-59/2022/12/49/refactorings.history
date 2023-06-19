@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Farben&apos; to &apos;FarbenB&apos;&#x0D;&#x0A;- Original project: &apos;Kapitel 56-59&apos;&#x0D;&#x0A;- Original element: &apos;Farben&apos;&#x0D;&#x0A;- Renamed element: &apos;FarbenB&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Farben&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Farbkreis.java[Farben" matchStrategy="1" name="FarbenB" qualified="false" references="true" similarDeclarations="false" stamp="1670790898427" textual="true" version="1.0"/>
+</session>

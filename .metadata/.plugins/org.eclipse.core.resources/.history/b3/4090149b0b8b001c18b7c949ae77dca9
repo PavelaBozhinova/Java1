@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Aufgab4 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner ( System.in );
+		
+		int zahl, zahl1; 
+		
+		System.out.println("Anfagszahl der Sterne ");
+		zahl = scan.nextInt();
+		
+		while (zahl>0) {
+			
+		zahl1 = zahl-1;
+		
+			while (zahl1>0) {
+				System.out.print("-");
+				zahl1--;
+		
+			
+		}{System.out.print("*");
+		
+		System.out.println("");
+		zahl--;	}
+		
+		
+	}}
+ 
+}

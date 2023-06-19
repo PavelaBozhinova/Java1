@@ -1,0 +1,15 @@
+
+public class Aufgabe2 {
+
+	public static void main(String[] args) {
+		
+		
+		double monat=0, wirkstoff=100, wirkstoff1=1;
+		
+		while (wirkstoff > 50)
+			
+		wirkstoff1 = wirkstoff - ((wirkstoff*4.0)/100.0);
+		System.out.println("   Wirkstoffgehalt: " + wirkstoff1);
+	}
+
+}

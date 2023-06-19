@@ -17,7 +17,7 @@ public class Fakultät {
 	  a=b;    
 	  b=c;    
 	 }  }  
-	 
+	 //komentar
 	  
 }
 	  
